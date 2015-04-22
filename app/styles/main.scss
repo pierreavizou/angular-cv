@@ -1,0 +1,287 @@
+$icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/bootstrap/";
+
+// bower:scss
+@import "_variables.scss";
+@import "angular-timeline/src/angular-timeline.scss";
+@import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
+@import "compass";
+@import "blockinfos.scss";
+@import "langs.scss";
+@import "circleprogress.scss";
+@import "interests.scss";
+// endbower
+
+body {
+  @include background-image(linear-gradient(to bottom right, white, #dddddd));
+  padding: 0;
+}
+
+a {
+  cursor:pointer;
+}
+
+.qrcode {
+  margin-top: -10px;
+} 
+
+.timeline:before {
+  background-color: $accentColor;
+}
+
+.timeline.exp:before{
+  background-color: $accentColorExp;
+}
+
+.timeline > li > .timeline-panel {
+  background-color: #FFF;
+}
+
+.timeline-panel .glyphicon {
+  color:$darkPrimaryColor;
+}
+
+.timeline-title{
+  color:$accentColor;
+  font-size: 1.4em;
+  font-weight: bold;
+}
+
+.tl-badge {
+  text-align: center;
+}
+
+.tl-badge.well.education{
+  color:$textPrimaryColor;
+  background-color: $primaryColor !important;
+}
+.current-education{
+  background-color: $lightPrimaryColor !important; 
+}
+
+.complete-education {
+  background-color: $primaryColor !important;
+}
+
+/***** EXPERIENCE ****/
+
+.tl-badge.well.exp{
+  color:$textPrimaryColorExp;
+  background-color: $primaryColorExp !important;
+}
+.current-exp{
+  background-color: $lightPrimaryColorExp !important; 
+}
+
+.complete-exp {
+  background-color: $primaryColorExp !important;
+}
+
+.exp {
+  a {
+    color:$brand-primary-exp;
+  }
+  .timeline-title {
+    color:$accentColorExp !important;
+  }
+  .timeline-panel {
+    .glyphicon {
+      color:$darkPrimaryColorExp;
+    }
+  }
+}
+
+.timeline-panel ul, .langs ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+.timeline-panel ul li:before {
+position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    padding: 0 10px;
+    content: "\e013";
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Custom page header */
+.header {
+  //border-bottom: 1px solid #e5e5e5;
+  margin-bottom: 10px;
+
+  /* Make the masthead heading the same height as the navigation */
+  h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 40px;
+    padding-bottom: 19px;
+  }
+}
+
+/* Custom page footer */
+.footer {
+  background: $darkPrimaryColor;
+  padding-top: 12px;
+  color: $textPrimaryColor;
+  margin-top: 5%;
+  //border-top: 1px solid #e5e5e5;
+}
+
+.backtotop {
+  color: $textPrimaryColor;
+  border-bottom:dotted 1px $textPrimaryColor;
+}
+
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+
+  .btn {
+    font-size: 21px;
+    padding: 14px 24px;
+  }
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 40px 0;
+
+  p + h4 {
+    margin-top: 28px;
+  }
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+
+.tl-badge {
+  width: 50%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.timeline:before{
+  bottom:-60px;}
+
+.tl-badge.well.exp{
+  margin-top: 80px; //60px to compensate timeline element negative margin bottom + 20px to restore default margin
+}
+
+.tl-badge.well.skills{
+  margin-top: 80px; //60px to compensate timeline element negative margin bottom + 20px to restore default margin
+}
+
+.tl-badge.well.lang{
+  margin-top: 80px; //60px to compensate timeline element negative margin bottom + 20px to restore default margin
+}
+
+.timeline > li {
+  margin-bottom: -60px !important;
+}
+
+
+.is-hidden .timeline-panel, .is-hidden .timeline-badge {
+  opacity: 0;
+}
+
+.bounce-in .timeline-badge {
+  //opacity: 1;
+  animation: cd-bounce-1 0.6s;
+}
+
+.bounce-in .timeline-panel {
+  animation: cd-bounce-2 .6s;
+  //transition:opacity 1s;
+}
+
+.timeline-inverted.bounce-in .timeline-panel {
+  animation: cd-bounce-2-inverse .6s !important;
+  //transition:opacity 1s;
+}
+
+  .container {
+    max-width: 970px;
+  }
+
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
+@include keyframes(cd-bounce-1) {
+  0% {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+ 
+  60% {
+    opacity: 1;
+    transform: scale(1.2);
+  }
+ 
+  100% {
+    transform: scale(1);
+  }
+}
+
+@include keyframes(cd-bounce-2) {
+  0% {
+    opacity: 0;
+    @include transform(translateX(-100px));
+  }
+
+  60% {
+    opacity: 1;
+    @include transform(translateX(20px));
+  }
+
+  100% {
+    @include transform(translateX(0));
+  }
+}
+
+@include keyframes(cd-bounce-2-inverse) {
+  0% {
+    opacity: 0;
+    @include transform(translateX(100px));
+  }
+
+  60% {
+    opacity: 1;
+    @include transform(translateX(-20px));
+  }
+
+  100% {
+    @include transform(translateX(0));
+  }
+}

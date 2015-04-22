@@ -1,0 +1,13 @@
+<h1 class="tl-badge well lang" id="languages">{{'sections.LANGUAGES' | translate}}</h1> <div class="langs"> <!-- <ul>
+		<li>Français (Langue maternelle)</li><div class="progress"><div class="progress-bar progress-bar-info" style="width:100%;display:inline"></div></div>
+
+		<li>Anglais (Niveau C1)</li><div class="progress"><div class="progress-bar progress-bar-info progress-bar" style="width:98%;display:inline"></div></div>
+
+		<li>Japonais  (Niveau B2)</li><div class="progress"><div class="progress-bar progress-bar-info progress-bar-striped" style="width:80%;display:inline"></div></div>
+
+    	<li>Allemand  (Niveau B1 - B2)</li><div class="progress"><div class="progress-bar progress-bar-info progress-bar-striped" style="width:75%;display:inline"></div></div>
+
+    	<li>Espagnol  (Niveau B1)</li><div class="progress"><div class="progress-bar progress-bar-info progress-bar-striped" style="width:55%;display:inline"></div></div>
+
+    	<li>Italien  (Niveau B1)</li><div class="progress"><div class="progress-bar progress-bar-info progress-bar-striped" style="width:55%;display:inline"></div></div>
+	</ul> --> <ul> <div ng-repeat="lang in langs"><li>{{lang.name | translate}} </li><div class="progress"><div fill to="lang.percent" class="progress-bar progress-bar-info" style="width:0%;display:inline"></div></div></div> </ul> </div>

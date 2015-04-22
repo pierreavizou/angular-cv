@@ -1,0 +1,124 @@
+@import "_variables.scss";
+@import "compass";
+/* Load animation */
+
+@include keyframes(load) { 0% {
+stroke-dashoffset:0
+}
+}
+
+.tl-badge.well.skills{
+  color:$textPrimaryColorExp;
+  background-color: $darkPrimaryColor !important;
+}
+
+/* Container */
+
+.circlepg {
+  position: relative;
+  display: inline-block;
+  padding: 0;
+  text-align: center;
+}
+
+/* Item */
+
+.circlepg>li {
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  color: #777E7E;
+  font-weight: 100;
+  margin: 2rem;
+}
+
+.circlepg>li:before {
+  content: attr(data-name);
+  position: absolute;
+  width: 100%;
+  bottom: -2rem;
+  font-weight: 400;
+}
+
+.circlepg>li:after {
+  position: absolute;
+  width: 100%;
+  top: 3.7rem;
+  left: 0;
+  font-size: 2rem;
+  text-align: center;
+  content: "";
+  display: block;
+  //width: 32px;
+  height: 32px;
+  background-size: auto 32px;
+  
+}
+  .windows:after{
+    background: url('../images/windows_logo.png') no-repeat center center;
+  }
+
+  .osx:after{
+    background: url('../images/apple_logo.png') no-repeat center;
+  }
+
+  .linux:after{
+    background: url('../images/linux_logo.png') no-repeat center;
+  }
+
+  .office:after{
+    background: url('../images/office_icon.png') no-repeat center;
+  }
+
+  .photoshop:after{
+    background: url('../images/photoshop_icon.png') no-repeat center;
+  }
+
+  .indesign:after{
+    background: url('../images/indesign_icon.png') no-repeat center;
+  }
+
+  .illustrator:after{
+    background: url('../images/illustrator_icon.png') no-repeat center;
+  }
+
+  .html:after{
+    background: url('../images/html_logo.png') no-repeat center;
+  }
+
+  .css:after{
+    background: url('../images/css_logo.png') no-repeat center;
+  }
+
+  .javascript:after{
+    background: url('../images/javascript_logo.png') no-repeat center;
+  }
+
+  .google-adwords:after{
+    background: url('../images/adwords_logo.png') no-repeat center;
+  }
+
+  .seo:after{
+    background: url('../images/google_logo.png') no-repeat center;
+  }
+
+
+.circlepg svg {
+  width: 10rem;
+  height: 10rem;
+}
+
+.circlepg svg:nth-child(2) {
+  position: absolute;
+  left: 0;
+  top: 0;
+  @include transform(rotate(-90deg));
+}
+
+.circlepg svg:nth-child(2) path {
+  fill: none;
+  stroke-width: 16;
+  stroke-dasharray: 629;
+  stroke: rgba(255, 255, 255, 0.7);
+  //animation: load $circleAnimDuration;
+}

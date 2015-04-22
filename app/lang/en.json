@@ -1,0 +1,145 @@
+{
+  "blockinfos": {
+  "PDFDL": "Download as PDF",
+  "CVTITLE": "Master 1 Marketing @ IAE Toulouse",
+  "TOOLTIPGITHUB":"View source code on GitHub",
+  "CHANGELANG":"Version française",
+  "FLAGURL": "drapeau_francais.png",
+  "BORN": "Born 21/09/1992",
+  "DRIVE": "Driving Licence - Personal vehicle",
+  "TOOLTIPQRCODE": "Scan with your phone to save my contact details",
+  "CVURL": "http://cloud.avizou.eu/f/c0afe96233/"
+}, 
+"interests":{
+"IT": "Computer science & high tech",
+"DEV":  "Web development ",
+"JPN": "Japanese society and culture",
+"LANGS": "Foreign Languages"
+},
+
+"sections": {
+  "EDUCATION":"Education",
+  "EXPERIENCE": "Work experience",
+  "SKILLS":"Skills",
+  "LANGUAGES":"Languages",
+  "INTERESTS":"Interests"
+
+}, 
+"languages": { 
+  "FRENCH": {
+    "name":"French (Native speaker)"
+  },
+  "ENGLISH": {
+    "name":"English (European Level C2 - Cambridge certificate)"
+  },
+  "JAPANESE": {
+    "name":"Japanese (European Level B2 - JLPT N3)"
+  },
+  "GERMAN": {
+    "name":"German (European Level B1 - B2)"
+  },
+  "SPANISH": {
+    "name":"Spanish (European Level B1)"
+  },
+  "ITALIAN": {
+    "name":"Italian (European Level B1)"
+  }
+},
+"education": {
+  "M1IAE": "First year of Master degree in Marketing",
+  "DESCM1IAE": "IAE Toulouse is Toulouse University's School of Management.",
+  "gestion" : "Management", 
+  "finance":"Finance", 
+  "anglais": "English", 
+  "marketing": "Marketing", 
+  "japonais": "Japanese", 
+  "allemand": "German",
+  "aei": "Major in International economic relationships",
+  "ci":"International Business",
+  "M1LEA": "First year of Master degree, International Business / Marketing", 
+  "DESCM1LEA":"Erasmus year abroad for the first year of Master's degree",
+  "PLACEM1LEA": "The University of Edinburgh Business School",
+  "JLPT": "Japanese Language Proficency Test N3",
+  "DESCJLPT":"International Japanese language proficency certificate, recognized by the Japanese government allowing to work for Japanese firms as well as in the public sector.",
+  "PLACEJLPT": "The University of Edinburgh, United-Kingdom",
+  "TIMEJLPT":"December 2013",
+  "L3LEA": "Bachelor degree, International economic relationships",
+  "PLACEL3LEA": "Université Toulouse-II, France",
+  "BAC": "French Baccalaureate",
+  "BACPLACE":"Lycée Bellevue, Albi (Tarn)",
+  "BACSERIE":"Economics and sociology",
+  "BACSPEANG":"Major in English",
+  "BACSECEURO":"\"European English Section\" (History classes taught in English)"
+},
+"villes":{
+  "TOULOUSE":"Toulouse",
+  "PARIS": "Paris"
+},
+"experience": {
+  "awsi": {
+    "JOB":"Digital marketing project manager",
+    "PLACE":"Toulouse, Paris",
+    "DESCRIPTION": "Internship then part-time",
+    "TIME": "Juin 2014 - Now",
+    "TASKS":{
+      "t1": "Help in defining corporate strategy", 
+      "t2":"Technical support in setting up and managing the e-commerce platform",
+      "t3":"Management of online advertising campaigns (Adwords, Facebook, Twitter)",
+      "t4":"Optimization of campaign costs",
+      "t5": "Search Engine Optimization (SEO)",
+      "t6": "Help in recruiting new team members",
+      "t7": "Setting up of advanced tracking tools (Analytics)",
+      "t8": "Data Analysis",
+      "t9": "Enhancement of user experience and website conversions",
+      "t10": "Customer relationship management",
+      "t11": "Project management for commerce platform migration (SaaS to self hosted)"
+    },
+    "TOOLTIP":"More info available upon request"
+  },
+  "bskoog":{
+    "JOB":"Creation of a marketing plan",
+    "PLACE": "Edinburgh, United-Kingdom",
+    "DESCRIPTION": "As an end-of-year project, group work on:",
+    "TIME": "January - March 2014",
+    "TASKS":{
+      "t1": "Analyzing the existing market", 
+      "t2": "Identifying new markets", 
+      "t3": "Designing marketing and communication strategies", 
+      "t4": "SEO optimisations - SEA Campaigns"
+    }
+  },
+  "craptrad":{
+    "JOB": "Business Development Support internship",
+    "PLACE": "Toulouse, France",
+    "TIME": "May - September 2013",
+    "TASKS":{
+      "t1": "Project Management",
+      "t2": "Quality checks ",
+      "t3": "Relationship with foreign suppliers",
+      "t4": "Negotiation of prices and deadlines"
+    }
+  },
+  "dopavillage":{
+    "JOB": "Hotel and restaurant waiter",
+    "PLACE": "Tateyama (館山), Japon",
+    "TIME": "Juillet - Août 2012",
+    "TASKS":{
+      "t1": "Greeting Japanese customers",
+      "t2": "Restaurant service",
+      "t3": "Complain management",
+      "t4": "Check-ins - Check-outs"
+    }
+  },
+  "eopenc":{
+    "JOB": "Volunteer",
+    "PLACE": "France",
+    "TIME": "2007 - 2013",
+    "TASKS":{
+      "t1": "Forum moderation and validation of tutorials published online"
+    }
+  }
+},
+"footer":{
+    "BACKTOTOP": "Back to top"
+  }
+}

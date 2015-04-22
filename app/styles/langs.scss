@@ -1,0 +1,43 @@
+@import "_variables.scss";
+.tl-badge.well.lang{
+  color:$textPrimaryColorExp;
+  background-color: #7C4DFF !important;
+}
+.langs li {
+	margin-bottom: 10px;
+}
+.progress {
+	background-color: #E1BEE7;
+}
+.progress-bar-info {
+	background-color:#9C27B0;
+}
+.progress-bar, .progress{
+	height: 10px;
+}
+
+.langs ul li:before {
+position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    padding: 0 3px;
+    margin-left: -3px;
+    content: "\e013";
+}
+
+.progress-bar {
+
+    transition: 2s;
+}
+@media screen and (min-width: 768px) {
+	.langs {
+  		max-width: 50%;
+  		margin: auto;
+	}
+}

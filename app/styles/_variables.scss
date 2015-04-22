@@ -1,0 +1,35 @@
+$darkPrimaryColor:   #0288D1;
+$primaryColor:       #03A9F4;
+$lightPrimaryColor:  #B3E5FC;
+$textPrimaryColor:   #FFFFFF;
+$accentColor:        #FF5722;
+$primaryTextColor:   #212121;
+$secondaryTextColor: #727272;
+$dividerColor:       #B6B6B6;
+
+//////////////////EXPERIENCE //////////////////
+$darkPrimaryColorExp:   #D32F2F;
+$primaryColorExp:       #F44336;
+$lightPrimaryColorExp:  #FFCDD2;
+$textPrimaryColorExp:   #FFFFFF;
+$accentColorExp:        #448AFF;
+$primaryTextColorExp:   #212121;
+$secondaryTextColorExp: #727272;
+$dividerColorExp:       #B6B6B6;
+
+$navbar-default-bg: $darkPrimaryColor;
+$text-color : $primaryTextColor;
+//$well-bg: $primaryColor;
+$navbar-default-link-color:$textPrimaryColor;
+$navbar-default-link-active-color: $textPrimaryColor;
+$navbar-default-toggle-icon-bar-bg:$lightPrimaryColor;
+$navbar-default-link-hover-bg: $primaryColor;
+$navbar-default-toggle-hover-bg: $primaryColor;
+$navbar-border-radius:0;
+$timeline-color: $accentColor;
+
+$timeline-color-exp: $accentColorExp;
+$brand-primary: $darkPrimaryColor;
+$brand-primary-exp: $darkPrimaryColorExp;
+
+$circleAnimDuration:1.5s;
