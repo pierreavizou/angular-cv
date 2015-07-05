@@ -9,7 +9,7 @@
   "DRIVE": "Driving Licence - Personal vehicle",
   "TOOLTIPQRCODE": "Scan with your phone to save my contact details",
   "CVURL": "http://cloud.avizou.eu/f/c0afe96233/"
-}, 
+},
 "interests":{
 "IT": "Computer science & high tech",
 "DEV":  "Web development ",
@@ -24,8 +24,8 @@
   "LANGUAGES":"Languages",
   "INTERESTS":"Interests"
 
-}, 
-"languages": { 
+},
+"languages": {
   "FRENCH": {
     "name":"French (Native speaker)"
   },
@@ -48,15 +48,15 @@
 "education": {
   "M1IAE": "First year of Master degree in Marketing",
   "DESCM1IAE": "IAE Toulouse is Toulouse University's School of Management.",
-  "gestion" : "Management", 
-  "finance":"Finance", 
-  "anglais": "English", 
-  "marketing": "Marketing", 
-  "japonais": "Japanese", 
+  "gestion" : "Management",
+  "finance":"Finance",
+  "anglais": "English",
+  "marketing": "Marketing",
+  "japonais": "Japanese",
   "allemand": "German",
   "aei": "Major in International economic relationships",
   "ci":"International Business",
-  "M1LEA": "First year of Master degree, International Business / Marketing", 
+  "M1LEA": "First year of Master degree, International Business / Marketing",
   "DESCM1LEA":"Erasmus year abroad for the first year of Master's degree",
   "PLACEM1LEA": "The University of Edinburgh Business School",
   "JLPT": "Japanese Language Proficency Test N3",
@@ -80,9 +80,9 @@
     "JOB":"Digital marketing project manager",
     "PLACE":"Toulouse, Paris",
     "DESCRIPTION": "Internship then part-time",
-    "TIME": "Juin 2014 - Now",
+    "TIME": "June 2014 - Now",
     "TASKS":{
-      "t1": "Help in defining corporate strategy", 
+      "t1": "Help in defining corporate strategy",
       "t2":"Technical support in setting up and managing the e-commerce platform",
       "t3":"Management of online advertising campaigns (Adwords, Facebook, Twitter)",
       "t4":"Optimization of campaign costs",
@@ -102,9 +102,9 @@
     "DESCRIPTION": "As an end-of-year project, group work on:",
     "TIME": "January - March 2014",
     "TASKS":{
-      "t1": "Analyzing the existing market", 
-      "t2": "Identifying new markets", 
-      "t3": "Designing marketing and communication strategies", 
+      "t1": "Analyzing the existing market",
+      "t2": "Identifying new markets",
+      "t3": "Designing marketing and communication strategies",
       "t4": "SEO optimisations - SEA Campaigns"
     }
   },
@@ -122,7 +122,7 @@
   "dopavillage":{
     "JOB": "Hotel and restaurant waiter",
     "PLACE": "Tateyama (館山), Japon",
-    "TIME": "Juillet - Août 2012",
+    "TIME": "July - August 2012",
     "TASKS":{
       "t1": "Greeting Japanese customers",
       "t2": "Restaurant service",
