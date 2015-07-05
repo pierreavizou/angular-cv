@@ -12,21 +12,21 @@ angular.module('angular-cv')
     $scope.changeTo = '';
     $scope.educations = [
       {
-        title : 'education.M1IAE', 
-        place:'IAE Toulouse, France', 
+        title : 'education.M1IAE',
+        place:'IAE Toulouse, France',
         time:'2014 - 2015',
-        link: 'http://iae-toulouse.fr', 
-    	  side: 'left', 
-        current: true, 
+        link: 'http://iae-toulouse.fr',
+    	  side: 'left',
+        current: true,
         description:'education.DESCM1IAE',
         subjects:['education.gestion', 'education.finance', 'education.anglais', 'education.marketing']
         },
       {
         title : 'education.M1LEA',
-        place:'education.PLACEM1LEA', 
+        place:'education.PLACEM1LEA',
         link: 'http://www.business-school.ed.ac.uk/',
-        time:'2013 - 2014', 
-        side:'right', 
+        time:'2013 - 2014',
+        side:'right',
         description : 'education.DESCM1LEA',
         subjects:['education.anglais', 'education.japonais', 'education.ci', 'education.marketing']
       },
@@ -39,33 +39,33 @@ angular.module('angular-cv')
         side:'left'
       },
     	{
-        title : 'education.L3LEA', 
-        place:'education.PLACEL3LEA', 
+        title : 'education.L3LEA',
+        place:'education.PLACEL3LEA',
         link : 'http://univ-tlse2.fr',
         subjects: ['education.anglais', 'education.japonais', 'education.allemand', 'education.aei'],
-        time:'2010 - 2013', 
+        time:'2010 - 2013',
         side:'right'
       },
       {
-        title : 'education.BAC', 
-        place:'education.BACPLACE', 
+        title : 'education.BAC',
+        place:'education.BACPLACE',
         subjects: ['education.BACSERIE', 'education.BACSECEURO', 'education.BACSPEANG'],
-        time:'2007 - 2010', 
+        time:'2007 - 2010',
         side:'left'
       }
     ];
     $scope.experiences = {
       awsi:{
-        firm:'WSI Live SA',
+        firm:'Maestro Corporation',
         description: '',
-        link: '',
+        link: 'http://maestro-corporation.com',
         place:'',
         job:'',
         tasks:[],
         current:true,
         time:'',
-        side:'left',
-        tooltip:'experience.awsi.TOOLTIP'
+        side:'left'
+        //tooltip:'experience.awsi.TOOLTIP'
       },
       bskoog:{
         firm:'SkoogMusic, Ltd',
@@ -138,14 +138,14 @@ angular.module('angular-cv')
     var exp = '';
     var task = '';
 
-    //Function to push translation keys into $scope.experiences, so as not to have to do it by hand. 
+    //Function to push translation keys into $scope.experiences, so as not to have to do it by hand.
     for (exp in translations.experience){
       $scope.experiences[exp].job = 'experience.' + exp + '.JOB';
       $scope.experiences[exp].place = 'experience.' + exp + '.PLACE';
-      // If there actually is a description (it has been defined as an empty string in the controller), 
+      // If there actually is a description (it has been defined as an empty string in the controller),
       //push it to the object, otherwise don't, because it would display the translation key.
       if ($scope.experiences[exp].description !== undefined) {$scope.experiences[exp].description = 'experience.' + exp + '.DESCRIPTION';}
-      $scope.experiences[exp].time = 'experience.' + exp + '.TIME'; 
+      $scope.experiences[exp].time = 'experience.' + exp + '.TIME';
       for(task in translations.experience[exp].TASKS){
         $scope.experiences[exp].tasks.push('experience.' + exp + '.TASKS.' + task);
         //console.log($scope.experiences[exp]);
