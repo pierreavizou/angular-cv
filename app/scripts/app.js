@@ -19,8 +19,8 @@
   'BORN': 'Né le 21/09/1992',
   'DRIVE': 'Permis B - Véhicule personnel',
   'TOOLTIPQRCODE': 'Scanner pour sauvegarder mes coordonnées',
-  'CVURL': 'http://cloud.avizou.eu/f/5f75040600/'
-}, 
+  'CVURL': 'http://cloud.avizou.eu/f/5f75040600/?raw=1'
+},
 'interests':{
 'IT': 'Informatique & nouvelles technologies',
 'DEV':  'Développement Web',
@@ -53,19 +53,19 @@
   'SKILLS':'Compétences',
   'LANGUAGES':'Langues',
   'INTERESTS':'Centres d\'intérêts'
-}, 
+},
 'education': {
   'M1IAE': 'Master 1 Marketing',
   'DESCM1IAE': 'Le Master Marketing est un diplôme dont l\'objectif est de former des professionnels du marketing et des chercheurs dans la discipline. Il prépare les étudiants aux métiers du marketing dans les entreprises, les agences et les cabinets de conseil',
-  'gestion' : 'Gestion', 
-  'finance':'Finance', 
-  'anglais': 'Anglais', 
-  'marketing': 'Marketing', 
-  'japonais': 'Japonais', 
+  'gestion' : 'Gestion',
+  'finance':'Finance',
+  'anglais': 'Anglais',
+  'marketing': 'Marketing',
+  'japonais': 'Japonais',
   'allemand': 'Allemand',
   'aei': 'Spécialité Affaires Économiques Internationales',
   'ci':'Commerce International',
-  'M1LEA': 'Master 1 LEA Commerce International / Marketing', 
+  'M1LEA': 'Master 1 LEA Commerce International / Marketing',
   'DESCM1LEA':'Année d\'échange Erasmus dans le cadre du Master 1 LEA.',
   'PLACEM1LEA': 'The University of Edinburgh Business School',
   'JLPT': 'Japanese Language Proficency Test N3',
@@ -84,14 +84,14 @@
   'TOULOUSE':'Toulouse',
   'PARIS': 'Paris'
 },
-'experience': { // here we prefix job titles with a, b, c etc because when using ng-repeat Angular sorts objects alphabetically, regardless of their index. 
+'experience': { // here we prefix job titles with a, b, c etc because when using ng-repeat Angular sorts objects alphabetically, regardless of their index.
   'awsi': {
     'JOB':'Chef de projet Webmarketing',
     'DESCRIPTION': 'En stage puis en temps partiel',
     'PLACE':'Toulouse, Paris',
     'TIME': 'Juin 2014 - Présent',
     'TASKS':{
-      't1': 'Participation à la définition de la stratégie', 
+      't1': 'Participation à la définition de la stratégie',
       't2':'Mise en œuvre et gestion technique du site Internet',
       't3':'Gestion des campagnes de publicité en ligne (Adwords, Facebook, Twitter)',
       't4':'Optimisation du coût des campagnes',
@@ -111,9 +111,9 @@
     'DESCRIPTION': 'En tant que projet tutoré en marketing, travail en équipe sur :',
     'TIME': 'Janvier - Mars 2014',
     'TASKS':{
-      't1': 'Analyse du marché existant', 
-      't2': 'Identification de nouveaux marchés', 
-      't3':'Définition d’une stratégie marketing et communication', 
+      't1': 'Analyse du marché existant',
+      't2': 'Identification de nouveaux marchés',
+      't3':'Définition d’une stratégie marketing et communication',
       't4':'Propositions d’optimisations SEO – Campagnes SEA.'
     }
   },
