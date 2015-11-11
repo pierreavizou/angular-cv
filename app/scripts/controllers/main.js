@@ -12,12 +12,22 @@ angular.module('angular-cv')
     $scope.changeTo = '';
     $scope.educations = [
       {
+        title : 'education.M2IAE',
+        place:'IAE Toulouse, France',
+        time:'2015 - 2016',
+        link: 'http://iae-toulouse.fr',
+        side: 'left',
+        current: true,
+        description:'education.DESCM2IAE',
+        subjects:['education.STRATMARKET', 'education.DIGITMARKET', 'education.MIT', 'education.TAMMODEL', 'education.ECRM']
+        },
+      {
         title : 'education.M1IAE',
         place:'IAE Toulouse, France',
         time:'2014 - 2015',
         link: 'http://iae-toulouse.fr',
-    	  side: 'left',
-        current: true,
+    	  side: 'right',
+        current: false,
         description:'education.DESCM1IAE',
         subjects:['education.gestion', 'education.finance', 'education.anglais', 'education.marketing']
         },
@@ -26,7 +36,7 @@ angular.module('angular-cv')
         place:'education.PLACEM1LEA',
         link: 'http://www.business-school.ed.ac.uk/',
         time:'2013 - 2014',
-        side:'right',
+        side:'left',
         description : 'education.DESCM1LEA',
         subjects:['education.anglais', 'education.japonais', 'education.ci', 'education.marketing']
       },
@@ -36,7 +46,7 @@ angular.module('angular-cv')
         link: 'http://www.ed.ac.uk/home',
         description: 'education.DESCJLPT',
         time: 'education.TIMEJLPT',
-        side:'left'
+        side:'right'
       },
     	{
         title : 'education.L3LEA',
@@ -44,14 +54,14 @@ angular.module('angular-cv')
         link : 'http://univ-tlse2.fr',
         subjects: ['education.anglais', 'education.japonais', 'education.allemand', 'education.aei'],
         time:'2010 - 2013',
-        side:'right'
+        side:'left'
       },
       {
         title : 'education.BAC',
         place:'education.BACPLACE',
         subjects: ['education.BACSERIE', 'education.BACSECEURO', 'education.BACSPEANG'],
         time:'2007 - 2010',
-        side:'left'
+        side:'right'
       }
     ];
     $scope.experiences = {

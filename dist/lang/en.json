@@ -46,7 +46,14 @@
   }
 },
 "education": {
+  "M2IAE": "Master 2 Marketing of Innovative Technologies",
+  "STRATMARKET": "Marketing strategy",
+  "DIGITMARKET": "Digital Marketing  - Webmarketing",
+  "TAMMODEL": "Technology acceptance statistical modeling",
+  "ECRM": "e-CRM and e-reputation management",
+  "MIT": "Marketing of Innovative Technologies",
   "M1IAE": "First year of Master degree in Marketing",
+  "DESCM2IAE": "This Master 2 specialisation is taught in English. In addition to the teaching of core marketing skills, it deals with the specificities of the Marketing of Innovative Technologies",
   "DESCM1IAE": "IAE Toulouse is Toulouse University's School of Management.",
   "gestion" : "Management",
   "finance":"Finance",

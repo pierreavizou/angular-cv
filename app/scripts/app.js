@@ -55,6 +55,13 @@
   'INTERESTS':'Centres d\'intérêts'
 },
 'education': {
+  'M2IAE': 'Master 2 Marketing of Innovative Technologies',
+  'STRATMARKET': 'Stratégie Marketing',
+  'DIGITMARKET': 'Marketing Digital - Webmarketing',
+  'TAMMODEL': 'Modélisation statistique d\'acceptation de l\'innovation',
+  'MIT': 'Marketing des Technologies Innovantes',
+  'ECRM': 'e-CRM et gestion de la e-reputation',
+  'DESCM2IAE': 'Cette spécialité de Master 2 est enseignée en anglais. Outre l\'enseigment des compétences générales du marketing, elle traite des spécificités du Marketing des Technologies Innovantes',
   'M1IAE': 'Master 1 Marketing',
   'DESCM1IAE': 'Le Master Marketing est un diplôme dont l\'objectif est de former des professionnels du marketing et des chercheurs dans la discipline. Il prépare les étudiants aux métiers du marketing dans les entreprises, les agences et les cabinets de conseil',
   'gestion' : 'Gestion',
