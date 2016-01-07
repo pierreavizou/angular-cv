@@ -12,7 +12,7 @@
  var translations = {
 'blockinfos': {
   'PDFDL': 'Télécharger au format PDF',
-  'CVTITLE': 'Master 1 Marketing @ IAE Toulouse',
+  'CVTITLE': 'Master 2 Marketing @ IAE Toulouse',
   'TOOLTIPGITHUB':'Code du site sur Github',
   'CHANGELANG':'English Version',
   'FLAGURL': 'union-jack.png',
