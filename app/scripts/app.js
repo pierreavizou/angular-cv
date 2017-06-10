@@ -49,7 +49,7 @@
 },
 'sections': {
   'EDUCATION':'Formation',
-  'EXPERIENCE': 'Expériences',
+  'EXPERIENCE': 'Expérience',
   'SKILLS':'Compétences',
   'LANGUAGES':'Langues',
   'INTERESTS':'Centres d\'intérêts'
