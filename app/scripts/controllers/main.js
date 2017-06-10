@@ -65,7 +65,7 @@ angular.module('angular-cv')
       }
     ];
     $scope.experiences = {
-      awsi:{
+      amaestro:{
         firm:'Maestro Corporation',
         description: '',
         link: 'http://maestro-corporation.com',
@@ -77,12 +77,24 @@ angular.module('angular-cv')
         side:'left'
         //tooltip:'experience.awsi.TOOLTIP'
       },
+      awsi:{
+        firm:'Maestro Corporation',
+        description: '',
+        link: 'http://maestro-corporation.com',
+        place:'',
+        job:'',
+        tasks:[],
+        current:false,
+        time:'',
+        side:'right'
+        //tooltip:'experience.awsi.TOOLTIP'
+      },
       bskoog:{
         firm:'SkoogMusic, Ltd',
         link:'http://skoogmusic.com',
         job: '',
         tasks:[],
-        side:'right',
+        side:'left',
         current:false,
         place: '',
         description: '',
@@ -92,14 +104,14 @@ angular.module('angular-cv')
         firm: 'Raptrad-Imagine',
         link: 'http://raptrad-imagine.com',
         tasks: [],
-        side:'left',
+        side:'right',
         current:false
       },
       dopavillage: {
         firm: 'Ôpa Village',
         link: 'http://opavillage.com',
         tasks:[],
-        side:'right',
+        side:'left',
         current:false,
         place:''
       },
@@ -107,7 +119,7 @@ angular.module('angular-cv')
         firm: 'Open Classrooms',
         link: 'http://openclassrooms.com',
         tasks:[],
-        side:'left',
+        side:'right',
         current:false,
         place:''
       }

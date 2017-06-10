@@ -18,6 +18,11 @@ body {
 
 a {
   cursor:pointer;
+  color: $darkPrimaryColorExp;
+  
+  &:hover {
+    color: $linkHoverColor;
+  }
 }
 
 .qrcode {
@@ -37,11 +42,11 @@ a {
 }
 
 .timeline-panel .glyphicon {
-  color:$darkPrimaryColor;
+  color:$darkPrimaryColorExp;
 }
 
 .timeline-title{
-  color:$accentColor;
+  color:$accentColorExp;
   font-size: 1.4em;
   font-weight: bold;
 }
@@ -62,6 +67,11 @@ a {
   background-color: $primaryColor !important;
 }
 
+.tl-badge.well.skills {
+  color:$textPrimaryColorExp;
+  background-color: $darkPrimaryColorExp !important;
+}
+
 /***** EXPERIENCE ****/
 
 .tl-badge.well.exp{
@@ -76,16 +86,16 @@ a {
   background-color: $primaryColorExp !important;
 }
 
-.exp {
+.educ {
   a {
-    color:$brand-primary-exp;
+    color:$brand-primary;
   }
   .timeline-title {
-    color:$accentColorExp !important;
+    color:$accentColor !important;
   }
   .timeline-panel {
     .glyphicon {
-      color:$darkPrimaryColorExp;
+      color:$darkPrimaryColor;
     }
   }
 }
@@ -134,16 +144,16 @@ position: relative;
 
 /* Custom page footer */
 .footer {
-  background: $darkPrimaryColor;
+  background: $darkPrimaryColorExp;
   padding-top: 12px;
-  color: $textPrimaryColor;
+  color: $textPrimaryColorExp;
   margin-top: 5%;
   //border-top: 1px solid #e5e5e5;
 }
 
 .backtotop {
-  color: $textPrimaryColor;
-  border-bottom:dotted 1px $textPrimaryColor;
+  color: $textPrimaryColorExp;
+  border-bottom:dotted 1px $textPrimaryColorExp;
 }
 
 .container-narrow > hr {
@@ -182,7 +192,7 @@ position: relative;
 .timeline:before{
   bottom:-60px;}
 
-.tl-badge.well.exp{
+.tl-badge.well.education{
   margin-top: 80px; //60px to compensate timeline element negative margin bottom + 20px to restore default margin
 }
 

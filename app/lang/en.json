@@ -8,7 +8,7 @@
   "BORN": "Born 21/09/1992",
   "DRIVE": "Driving Licence - Personal vehicle",
   "TOOLTIPQRCODE": "Scan with your phone to save my contact details",
-  "CVURL": "http://cloud.avizou.eu/f/c0afe96233/?raw=1"
+  "CVURL": "https://cloud.avizou.eu/f/fbdece5d49/?raw=1"
 },
 "interests":{
 "IT": "Computer science & high tech",
@@ -83,11 +83,28 @@
   "PARIS": "Paris"
 },
 "experience": {
+  "amaestro": {
+    "JOB":"Full-stack Marketer",
+    "PLACE":"Toulouse, Paris",
+    "DESCRIPTION": "Full-time position",
+    "TIME": "September 2016 - Now",
+    "TASKS":{
+      "t1": "Role in management of Marketing Department",
+      "t2":"Defining marketing strategies that serve business objectives",
+      "t3":"Monitoring and performance management of online ads (Facebook, Adwords...)",
+      "t4":"Development of tools for performance reporting and correction",
+      "t5": "Improvement of user experienceand online conversion",
+      "t6": "Help in recruiting new team members",
+      "t7": "Implementing relevant tools for automation and scale",
+      "t8": "Writing technical specs for developers"
+    },
+    "TOOLTIP":"More info available upon request"
+  },
   "awsi": {
     "JOB":"Digital marketing project manager",
     "PLACE":"Toulouse, Paris",
-    "DESCRIPTION": "Internship then part-time",
-    "TIME": "June 2014 - Now",
+    "DESCRIPTION": "Internship and part-time beside studies",
+    "TIME": "June 2014 - August 2016",
     "TASKS":{
       "t1": "Help in defining corporate strategy",
       "t2":"Technical support in setting up and managing the e-commerce platform",
@@ -95,7 +112,7 @@
       "t4":"Optimization of campaign costs",
       "t5": "Search Engine Optimization (SEO)",
       "t6": "Help in recruiting new team members",
-      "t7": "Setting up of advanced tracking tools (Analytics)",
+      "t7": "Setting up of advanced tracking tools (Analytics, Facebook, Hotjar...)",
       "t8": "Data Analysis",
       "t9": "Enhancement of user experience and website conversions",
       "t10": "Customer relationship management",

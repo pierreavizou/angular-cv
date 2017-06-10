@@ -1,32 +1,34 @@
-$darkPrimaryColor:   #0288D1;
-$primaryColor:       #03A9F4;
-$lightPrimaryColor:  #B3E5FC;
+$darkPrimaryColor:   #D32F2F;
+$primaryColor:       #F44336;
+$lightPrimaryColor:  #FFCDD2;
 $textPrimaryColor:   #FFFFFF;
-$accentColor:        #FF5722;
+$accentColor:        #448AFF;
 $primaryTextColor:   #212121;
 $secondaryTextColor: #727272;
 $dividerColor:       #B6B6B6;
+$linkHoverColor:	 #015785;
 
 //////////////////EXPERIENCE //////////////////
-$darkPrimaryColorExp:   #D32F2F;
-$primaryColorExp:       #F44336;
-$lightPrimaryColorExp:  #FFCDD2;
+$darkPrimaryColorExp:   #0288D1;
+$primaryColorExp:       #03A9F4;
+$lightPrimaryColorExp:  #B3E5FC;
 $textPrimaryColorExp:   #FFFFFF;
-$accentColorExp:        #448AFF;
+$accentColorExp:        #FF5722;
 $primaryTextColorExp:   #212121;
 $secondaryTextColorExp: #727272;
 $dividerColorExp:       #B6B6B6;
 
-$navbar-default-bg: $darkPrimaryColor;
-$text-color : $primaryTextColor;
+
+$navbar-default-bg: $darkPrimaryColorExp;
+$text-color : $primaryTextColorExp;
 //$well-bg: $primaryColor;
-$navbar-default-link-color:$textPrimaryColor;
-$navbar-default-link-active-color: $textPrimaryColor;
-$navbar-default-toggle-icon-bar-bg:$lightPrimaryColor;
-$navbar-default-link-hover-bg: $primaryColor;
-$navbar-default-toggle-hover-bg: $primaryColor;
+$navbar-default-link-color:$textPrimaryColorExp;
+$navbar-default-link-active-color: $textPrimaryColorExp;
+$navbar-default-toggle-icon-bar-bg:$lightPrimaryColorExp;
+$navbar-default-link-hover-bg: $primaryColorExp;
+$navbar-default-toggle-hover-bg: $primaryColorExp;
 $navbar-border-radius:0;
-$timeline-color: $accentColor;
+$timeline-color: $accentColorExp;
 
 $timeline-color-exp: $accentColorExp;
 $brand-primary: $darkPrimaryColor;

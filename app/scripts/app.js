@@ -92,23 +92,43 @@
   'PARIS': 'Paris'
 },
 'experience': { // here we prefix job titles with a, b, c etc because when using ng-repeat Angular sorts objects alphabetically, regardless of their index.
+  'amaestro': {
+    'JOB':'Full Stack Marketer',
+    'DESCRIPTION': 'C.D.I. temps plein',
+    'PLACE':'Toulouse, Paris',
+    'TIME': 'Septembre 2016 - Présent',
+    'TASKS':{
+      't1': 'Participation à l\'encadrement de l\'équipe marketing ',
+      't2':'Définition de stratégies marketing au service des objectifs de l’entreprise',
+      't3':'Pilotage et suivi des performances (Acquisition, MSCV...)',
+      't4':'Développement d’outils de reporting et de correction des performances',
+      't5': 'Amélioration de l\'UX et du taux de conversion',
+      't6': 'Participation au recrutement',
+      't7': 'Mise en place d’outils adaptés aux enjeux (automation, scale)',
+      't8': 'Rédaction de spécification techniques pour les développeurs',
+      // 't9': 'Amélioration de l\'expérience utilisateur et du taux de conversion',
+      // 't10': 'Gestion de la relation client',
+      // 't11': 'Gestion de projet de migration de plateforme e-commerce (SaaS vers auto-hébergé)'
+    },
+    'TOOLTIP':'Plus d\'informations sur demande'
+  },
   'awsi': {
     'JOB':'Chef de projet Webmarketing',
-    'DESCRIPTION': 'En stage puis en temps partiel',
+    'DESCRIPTION': 'Stages et temps partiel pendant Master Marketing',
     'PLACE':'Toulouse, Paris',
-    'TIME': 'Juin 2014 - Présent',
+    'TIME': 'Juin 2014 - Août 2016',
     'TASKS':{
-      't1': 'Participation à la définition de la stratégie',
+      // 't1': 'Participation à la définition de la stratégie',
       't2':'Mise en œuvre et gestion technique du site Internet',
       't3':'Gestion des campagnes de publicité en ligne (Adwords, Facebook, Twitter)',
       't4':'Optimisation du coût des campagnes',
-      't5': 'Optimisation du référencement naturel (SEO)',
-      't6': 'Participation au recrutement',
-      't7': 'Mise en place d\'outils de suivi avancés (Analytics)',
-      't8': 'Analyse de données',
-      't9': 'Amélioration de l\'expérience utilisateur et du taux de conversion',
+      't5': 'Optimisation du référencement naturel (aspects techniques)',
+      // 't6': 'Participation au recrutement',
+      't7': 'Mise en place d\'outils de suivi avancés (Analytics, Facebook, Hotjar...)',
+      // 't8': 'Analyse de données',
+      // 't9': 'Amélioration de l\'expérience utilisateur et du taux de conversion',
       't10': 'Gestion de la relation client',
-      't11': 'Gestion de projet de migration de plateforme e-commerce (SaaS vers auto-hébergé)'
+      // 't11': 'Gestion de projet de migration de plateforme e-commerce (SaaS vers auto-hébergé)'
     },
     'TOOLTIP':'Plus d\'informations sur demande'
   },
